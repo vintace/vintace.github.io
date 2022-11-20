@@ -1,0 +1,19 @@
+#tb1 table{
+    display: table;
+    border-collapse: collapse;
+    margin: 10px auto ;
+    width: 100%;
+}
+#tb1 tbody tr:nth-child(even){
+    background-color: powderblue;
+}
+#tb1 thead{
+    background-color: lightcoral;
+    color: white;
+}
+#tb1 tr,td,th{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: 1px solid black;
+}
